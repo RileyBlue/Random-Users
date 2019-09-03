@@ -283,9 +283,15 @@ rgb(225, 70, 124) 100%);
 
 @media all and (min-width: 320px) and (max-width: 480px) {
   .search-box__container {
-    width: auto;
+    width: 90%;
     position: relative;
-    margin: 2rem 0;
+    margin: 2rem auto;
+  }
+
+  .title {
+    color: #333;
+    padding: 1rem;
+    width: 90%;
   }
   
   .user {
@@ -304,6 +310,11 @@ rgb(225, 70, 124) 100%);
   
   .profile__picture {
     margin-bottom: 1rem;
+  }
+
+  .user-list {
+    margin: 0 auto;
+    width: 90%;
   }
 }
 
